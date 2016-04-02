@@ -1,0 +1,2 @@
+Before work with the classes from the package refactor_addressbook must be specified url, login and password (for connection to datasource) in the connection.properties and dbContext.xml.
+In the class AddressBook must be selected exactly which bean will inject by Spring IoC (contactDaoJDBC or contactRepository).
